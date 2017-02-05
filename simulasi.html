@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="ionic/css/ionic.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:600|Josefin+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <title>Video Simulasi | Digital Physics Labrary</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+      @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+      @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/stylemateri.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+    <script src="cordova.js" id="xdkJScordova_"></script>
+    <script src="js/app.js"></script>
+    <script src="js/init-app.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="marginal/marginal-position.js"></script>
+    <script type="application/javascript" src="ionic/js/ionic.bundle.js"></script>
+    <script type="application/javascript" src="js/index_init_services.js"></script>
+    <script type="application/javascript" src="sidebar/js/hammer.js"></script>
+    <script type="application/javascript" src="sidebar/js/jquery.hammer.js"></script>
+    <script type="application/javascript" src="sidebar/js/swipe-hammer.js"></script>
+    <script type="application/javascript" src="sidebar/js/sidebar.js"></script>
+    <script type="application/javascript" src="js/index_user_scripts.js"></script>
+    <script type="application/javascript" src="xdk/ad/ionic_subpage.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_45_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_52_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_55_popup.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_59_actionsheet.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_60_actionsheet.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_61_actionsheet.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_62_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_63_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_65_modal.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+  </head>
+  <body ng-app="myApp" ng-controller="MyCtrl">
+    <div class="upageanimasi" id="animasi">
+      <div class="upage-outer scrollbar">
+                      <script src="sketch.js" type="text/javascript"></script>
+       </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu10"></button>
+        </div>
+        <h1 class="title">Animasi Fisika</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+        </div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb10">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda" onclick="window.open('index.html', '_self', 'location=yes'); return true;">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri" onclick="window.open('index.html##materi', '_self', 'location=yes'); return true;">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes" onclick="window.open('index.html##tes', '_self', 'location=yes'); return true;">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya" onclick="window.open('index.html##lainnya', '_self', 'location=yes'); return true;">Lainnya</button>
+          <div class="text-container">
+            <p>Konten</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvanimasi">Animasi Fisika</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvsimulasi">Video Simulasi</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

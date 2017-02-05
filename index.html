@@ -1,0 +1,2186 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="ionic/css/ionic.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:600|Josefin+Sans:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <title>Digital Physics Labrary</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+      @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+      @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/stylemateri.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script src="cordova.js" id="xdkJScordova_"></script>
+    <script src="js/app.js"></script>
+    <script src="js/init-app.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="marginal/marginal-position.js"></script>
+    <script type="application/javascript" src="ionic/js/ionic.bundle.js"></script>
+    <script type="application/javascript" src="js/index_init_services.js"></script>
+    <script type="application/javascript" src="sidebar/js/hammer.js"></script>
+    <script type="application/javascript" src="sidebar/js/jquery.hammer.js"></script>
+    <script type="application/javascript" src="sidebar/js/swipe-hammer.js"></script>
+    <script type="application/javascript" src="sidebar/js/sidebar.js"></script>
+    <script type="application/javascript" src="js/index_user_scripts.js"></script>
+    <script type="application/javascript" src="xdk/ad/ionic_subpage.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_45_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_52_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_55_popup.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_59_actionsheet.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_60_actionsheet.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_61_actionsheet.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_62_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_63_popover.js"></script>
+    <script type="application/javascript" src="js/index_uib_w_65_modal.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+  </head>
+
+  <body ng-app="myApp" ng-controller="MyCtrl">
+
+    <div class="upage Materi" id="mainpage" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <section class="cd-hero">
+          <ul class="cd-hero-slider autoplay">
+            <li class="selected">
+              <div class="cd-full-width">
+                <h2>Digital Physics Labrary</h2>
+                <p>Mempelajari fisika tidak perlu mengeluarkan banyak tenaga dan pikiran, kini dengan Digital Physics Labrary fisika menjadi lebih mudah.</p>
+              </div>
+            </li>
+            <li>
+              <div class="cd-half-width">
+                <h2>Kinematika Gerak</h2>
+                <p>Kinematika merupakan salah satu cabang fisika yang mempelajari tentang fenomena gerak suatu benda tanpa melihat penyebab mengapa benda itu bisa bergerak.</p>
+              </div>
+              <div class="cd-half-width cd-img-container">
+                <img src="assets/tech-1.jpg" alt="tech 1">
+              </div>
+            </li>
+            <li>
+              <div class="cd-half-width cd-img-container">
+                <img src="assets/tech-2.jpg" alt="tech 2">
+              </div>
+              <div class="cd-half-width">
+                <h2>Tes</h2>
+                <p>Dengan banyak mengerjakan latihan - latihan soal, fisika menjadi tidak perlu dihapal dan ditakuti lagi.</p>
+              </div>
+            </li>
+            <li class="cd-bg-video">
+              <div class="cd-full-width">
+                <h2>Animasi Fisika</h2>
+                <p>Dengan adanya animasi fisika, diharapkan kesulitan memahami fenomena abstrak fisika dapat dihilangkan.</p>
+              </div>
+              <div class="cd-bg-video-wrapper" data-video="assets/video/video">
+              </div>
+            </li>
+            <li>
+              <div class="cd-full-width">
+                <h2>Fisika Itu Sulit</h2>
+                <p>Pada awalnya fisika memang sulit. Namun, dengan belajar mandiri dan banyak mengerjakan latihan - latihan soal, fisika menjadi lebih mudah dipahami.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="cd-slider-nav">
+            <nav>
+              <span class="cd-marker item-1"></span>
+              <ul>
+                <li class="selected">
+                  <a href="#0"></a>
+                </li>
+                <li>
+                  <a href="#0"></a>
+                </li>
+                <li>
+                  <a href="#0"></a>
+                </li>
+                <li>
+                  <a href="#0"></a>
+                </li>
+                <li>
+                  <a href="#0"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <main class="cd-main-content">
+          <p align="center">
+            Dengan <i>Digital Physics Labrary</i> kamu bisa belajar fisika dengan mudah dan interaktif. Untuk saat ini DPL berada pada tahap pengembangan sehingga materi yang bisa diakses di aplikasi ini hanya terbatas pada materi Kinematika Gerak saja.
+            Nantinya DPL akan hadir dalam berbagai materi sehingga kamu tidak perlu merasa khawatir dan takut dalam mempelajari Fisika.
+          </p>
+        </main>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu1"></button>
+        </div>
+        <h1 class="title">Digital Physics Labrary</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'push', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb1">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <div class="upage hidden Beranda" id="materi" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <section class="cd-sebelas">
+          <ul class="cd-sebelas-duabelas autoplay">
+            <li class="selected">
+              <div class="cd-tigabelas-width">
+                <h2>Kompetensi Inti:</h2>
+                <p>3.&nbsp;Memahami, menerapkan, dan menjelaskan pengetahuan faktual, konseptual, prosedural, dan metakognitif dalam ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dengan wawasan kemanusiaan, kebangsaan, kenegaraan, dan peradaban
+                  terkait penyebab fenomena dan kejadian, serta menerapkan pengetahuan prosedural pada bidang kajian yang spesifik sesuai dengan bakat dan minatnya untuk memecahkan masalah.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="cd-empatbelas-width">
+                <h2>Kompetensi Dasar:</h2>
+                <p>3.1 Menganalisis gerak lurus, gerak melingkar dan gerak parabola dengan menggunakan vektor.
+                </p>
+              </div>
+              <div class="cd-empatbelas-width cd-img-container">
+                <img src="assets/gsd2.jpg" alt="tech 1">
+              </div>
+            </li>
+            <li>
+              <div class="cd-empatbelas-width cd-img-container">
+                <img src="assets/gsd3.png" alt="tech 2">
+              </div>
+              <div class="cd-empatbelas-width">
+                <h2>Tujuan Pembelajaran:</h2>
+                <p>1. Siswa dapat memahami gerak lurus dengan analisis vektor.
+                  <br>2. Siswa dapat memahami gerak melingkar dengan analisis vektor.
+                  <br>3. Siswa dapat memahami gerak dua dimensi dengan analisis vektor.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="cd-duabelas-nav">
+            <nav>
+              <span class="cd-marker item-1"></span>
+              <ul>
+                <li class="selected">
+                  <a href="#0"></a>
+                </li>
+                <li>
+                  <a href="#0"></a>
+                </li>
+                <li>
+                  <a href="#0"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <div class="upage-content ac0 content-area vertical-col left" id="page_87_27">
+          <div class="grid grid-pad urow uib_row_17 row-height-17" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_18 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="grid grid-pad urow uib_row_27 row-height-27" data-uib="layout/row" data-ver="0">
+                  <div class="col uib_col_28 col-1_12-12" data-uib="layout/col" data-ver="0">
+                    <div class="widget-container content-area vertical-col">
+                      <span class="uib_shim"></span>
+                    </div>
+                  </div>
+                  <span class="uib_shim"></span>
+                </div>
+
+                <div class="tarea widget uib_w_38 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_38">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Pendahuluan</strong></h2>
+                    <h3><br>
+                      Mekanika adalah ilmu yang mempelajari mengenai gerak, dan ia dibedakan menjadi dua bagian yaitu, kinematika dan dinamika. 
+                      Untuk saat ini, kita akan terlebih dahulu mempelajari kinematika.<br> 
+                      <br>Kinematika adalah bagian ilmu mekanika yang mempelajari gerak tanpa melihat atau mempertimbangkan penyebab benda tersebut bergerak. <br><br>
+                      Apa saja yang akan kita pelajari di kinematika? Kita pasti sebelumnya sudah mengenal istilah – istilah seperti waktu, posisi, kecepatan, dan percepatan.<br>
+                      <br>Untuk lebih memahami kinematika, kita perlu mengembangkan ketiga istilah sebelumnya menjadi sebuah KONSEP. <br><br>
+                      Sebagai contoh, kecepatan merupakan wujud dari perubahan posisi dibagi selang waktu, percepatan merupakan wujud dari perubahan kecepatan dibagi selang waktu.<br> 
+                      <br>Apa saja yang akan kita butuhkan untuk lebih memahami kinematika gerak? Kemampuan dasar yang harus kita miliki adalah pemahaman lebih tentang vektor, diferensial dan integral.
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu2"></button>
+        </div>
+        <h1 class="title">Materi</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb2">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/mainmateri.js"></script>
+    <div class="upage hidden GSD" id="gsd" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <section class="cd-pahlawan">
+          <ul class="cd-pahlawan-geser autoplay">
+            <li class="selected">
+              <div class="cd-penuh-width">
+                <h2>Gerak Satu Dimensi</h2>
+                <p>Gerak satu dimensi merupakan gerak suatu partikel (benda) sepanjang sumbu tunggal. Sumbu tersebut diumpamakan sebagai sumbu pada diagram kartesian seperti sumbu $x$, sumbu $y$, atau juga sumbu $z$.</p>
+              </div>
+            </li>
+            <li>
+              <div class="cd-setengah-width">
+                <h2>Gerak Lurus</h2>
+                <p>Gerak satu dimensi juga lebih sering dikenal dengan istilah lain yakni, Gerak Lurus. Secara umum gerak lurus dibagi menjadi dua jenis, ada gerak lurus beraturan (GLB) dan ada gerak lurus berubah beraturan (GLBB).
+                </p>
+              </div>
+              <div class="cd-setengah-width cd-img-container">
+                <img src="assets/gsd2.jpg" alt="tech 1">
+              </div>
+            </li>
+            <li>
+              <div class="cd-setengah-width cd-img-container">
+                <img src="assets/gsd3.png" alt="tech 2">
+              </div>
+              <div class="cd-setengah-width">
+                <h2>Kehidupan Kita</h2>
+                <p>Ingat, gerak satu dimensi dalam kehidupan kita sehari - hari cukup banyak terjadi. Contoh dari gerak di sepanjang garis lurus horizontal adalah gerak mobil, motor, atau truk di jalan raya. Sedangkan contoh gerak di sepanjang garis lurus
+                  vertikal adalah gerak buah apel jatuh dari pucuk pohon.
+                </p>
+              </div>
+            </li>
+            <li class="cd-bg-video">
+              <div class="cd-penuh-width">
+                <h2>Gerak Satu Dimensi</h2>
+                <p>Jadi kesimpulannya, gerak satu dimensi itu adalah gerak suatu partikel (benda) di sepanjang garis lurus baik horizontal ataupun vertikal.</p>
+              </div>
+              <div class="cd-bg-video-wrapper" data-video="assets/video/video">
+              </div>
+            </li>
+            <li>
+              <div class="cd-penuh-width">
+                <h2>Apa yang Perlu Kamu Ketahui?</h2>
+                <p>Silahkan kalian swipe layar ke kanan untuk melihat apa saja yang perlu kalian ketahui untuk memahami lebih lanjut mengenai gerak satu dimensi.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu6"></button>
+        </div>
+        <h1 class="title">Gerak Satu Dimensi</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+        </div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/main2.js"></script>
+    <div class="upage hidden GM" id="gm" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <section class="cd-satu">
+          <ul class="cd-satu-dua autoplay">
+            <li class="selected">
+              <div class="cd-tiga-width">
+                <h2>Gerak Melingkar</h2>
+                <p>Gerak melingkar merupakan gerak suatu partikel (benda) pada lintasan berbentuk lingkaran.</p>
+              </div>
+            </li>
+            <li>
+              <div class="cd-empat-width">
+                <h2>Gerak Melingkar</h2>
+                <p>Gerak melingkar juga termasuk gerak dua dimensi, karena bergerak pada dua sumbu dalam diagram kartesian. Secara umum gerak melingkar dibagi menjadi dua jenis, ada gerak melingkar beraturan (GMB) dan ada gerak lurus berubah beraturan (GMBB).
+                </p>
+              </div>
+              <div class="cd-empat-width cd-img-container">
+                <img src="assets/gsd2.jpg" alt="tech 1">
+              </div>
+            </li>
+            <li>
+              <div class="cd-empat-width cd-img-container">
+                <img src="assets/gsd3.png" alt="tech 2">
+              </div>
+              <div class="cd-empat-width">
+                <h2>Kehidupan Kita</h2>
+                <p>
+                  Ayo coba kita telaah, gerak melingkar dalam kehidupan kita sehari - hari cukup banyak terjadi. Contohnya antara lain, gerak
+                  <bi>Roller Coaster</bi>
+                  pada rel melingkar, gerak roda sepeda motor ataupun mobil, gerak baling - baling kipas angin atau juga helikopter. Semua contoh tersebut termasuk ke dalam kategori gerak melingkar.
+                </p>
+              </div>
+            </li>
+            <li class="cd-bg-video">
+              <div class="cd-tiga-width">
+                <h2>Gerak Melingkar</h2>
+                <p>Jadi kesimpulannya, gerak melingkar itu adalah gerak suatu partikel (benda) di sepanjang lintasan berbentuk lingkaran.</p>
+              </div>
+              <div class="cd-bg-video-wrapper" data-video="assets/video/video">
+              </div>
+            </li>
+            <li>
+              <div class="cd-tiga-width">
+                <h2>Apa yang Perlu Kamu Ketahui?</h2>
+                <p>Seperti biasa, silahkan kalian swipe layar ke kanan untuk melihat apa saja yang perlu dipahami lebih lanjut mengenai gerak melingkar.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_5 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu7"></button>
+        </div>
+        <h1 class="title">Gerak Melingkar</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb7">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvsudut">Kecepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnasudut">Percepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnatotal">Percepatan Total</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnanalogi">Analogi Gerak Melingkar</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/main3.js"></script>
+    <div class="upage hidden GP" id="gp" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <section class="cd-enam">
+          <ul class="cd-enam-tujuh autoplay">
+            <li class="selected">
+              <div class="cd-delapan-width">
+                <h2>Gerak Parabola</h2>
+                <p>Gerak parabola merupakan gerak suatu partikel (benda) pada lintasan berbentuk parabola.</p>
+              </div>
+            </li>
+            <li>
+              <div class="cd-sembilan-width">
+                <h2>Gerak Parabola</h2>
+                <p>Gerak parabola termasuk ke dalam gerak dua dimensi, karena bergerak pada dua sumbu dalam diagram kartesian. Akan tetapi, penjelasan mengenai sumbu pada gerak parabola secara umum lebih menekankan pada sumbu horizontal ($x$) dan vertikal
+                  ($y$).
+                </p>
+              </div>
+              <div class="cd-sembilan-width cd-img-container">
+                <img src="assets/gsd2.jpg" alt="tech 1">
+              </div>
+            </li>
+            <li>
+              <div class="cd-sembilan-width cd-img-container">
+                <img src="assets/gsd3.png" alt="tech 2">
+              </div>
+              <div class="cd-sembilan-width">
+                <h2>Kehidupan Kita</h2>
+                <p>Ayo coba kita pikirkan, gerak parabola dalam kehidupan kita sehari - hari cukup banyak terjadi. Gerak bola baseball atau juga bola tenis meja ketika dipukul, gerak bola basket ketika dilemparkan menuju ring, gerak bola sepakbola ketika
+                  ditendang, dan masih banyak lagi contoh - contoh lain. Coba kalian pikirkan ya, contoh lain gerak parabola.
+                </p>
+              </div>
+            </li>
+            <li class="cd-bg-video">
+              <div class="cd-delapan-width">
+                <h2>Gerak Parabola</h2>
+                <p>Kesimpulannya, gerak parabola itu adalah gerak suatu partikel (benda) di dua sumbu dalam diagram kartesian, yakni sumbu $x$ dan sumbu $y$.</p>
+              </div>
+              <div class="cd-bg-video-wrapper" data-video="assets/video/video">
+              </div>
+            </li>
+            <li>
+              <div class="cd-delapan-width">
+                <h2>Apa yang Perlu Kamu Ketahui?</h2>
+                <p>Seperti biasa, silahkan kalian swipe layar ke kanan untuk melihat apa saja yang perlu dipahami lebih lanjut mengenai gerak parabola.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_5 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu8"></button>
+        </div>
+        <h1 class="title">Gerak Parabola</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb8">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisigp">Jarak dan Tinggi Maksimum</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnjarakgp">Persamaan Posisi dan Kecepatan</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/main4.js"></script>
+    <div class="upage hidden Tes" id="tes" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_68_53">
+          <div class="grid grid-pad urow uib_row_26 row-height-26" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_27 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <button class="button widget uib_w_57 d-margins button-light" data-uib="ionic/button" data-ver="0" id="poppemantapan">Pemahaman</button>
+                <button class="button widget uib_w_56 d-margins button-light" data-uib="ionic/button" data-ver="0" id="poplatihan">Latihan</button>
+                <button class="button widget uib_w_58 d-margins button-light" data-uib="ionic/button" data-ver="0" id="popujian">Ujian</button>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <div class="inner-element uib_w_68 uib_sidebar rightbar bar-bg thumb-bg bar-gutter fixed" data-uib="layout/right_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':280, 'side':'right', 'dur':200}" id="rsbpemantapan">
+        <div class="sidebar-content content-area vertical-col">
+          <div class="text-container pr">
+            <p>Ragam Pemahaman Konsep</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnpemantapan1" onclick="window.open('pemantapan1.html', '_self', 'location=yes'); return true;">Pemahaman Konsep 1</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnpemantapan2" onclick="window.open('pemantapan2.html', '_self', 'location=yes'); return true;">Pemahaman Konsep 2</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnpemantapan3" onclick="window.open('pemantapan3.html', '_self', 'location=yes'); return true;">Pemahaman Konsep 3</button>
+        </div>
+      </div>
+      <div class="inner-element uib_w_68 uib_sidebar rightbar bar-bg thumb-bg bar-gutter fixed" data-uib="layout/right_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':280, 'side':'right', 'dur':200}" id="rsblatihan">
+        <div class="sidebar-content content-area vertical-col">
+          <div class="text-container pr">
+            <p>Ragam Latihan</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan1" onclick="window.open('latihan1.html', '_self', 'location=yes'); return true;">Latihan 1</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan2" onclick="window.open('latihan2.html', '_self', 'location=yes'); return true;">Latihan 2</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan3" onclick="window.open('latihan3.html', '_self', 'location=yes'); return true;">Latihan 3</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan4" onclick="window.open('latihan4.html', '_self', 'location=yes'); return true;">Latihan 4</button>
+        </div>
+      </div>
+      <div class="inner-element uib_w_68 uib_sidebar rightbar bar-bg thumb-bg bar-gutter fixed" data-uib="layout/right_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':280, 'side':'right', 'dur':200}" id="rsbujian">
+        <div class="sidebar-content content-area vertical-col">
+          <div class="text-container pr">
+            <p>Ragam Ujian</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnujian1" onclick="window.open('ujian1.html', '_self', 'location=yes'); return true;">Ujian 1</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnujian2" onclick="window.open('ujian2.html', '_self', 'location=yes'); return true;">Ujian 2</button>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu3"></button>
+        </div>
+        <h1 class="title">Tes</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb3">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Jenis Tes</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnpemantapan1" onclick="window.open('pemantapan1.html', '_self', 'location=yes'); return true;">Pemahaman Konsep 1</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnpemantapan2" onclick="window.open('pemantapan2.html', '_self', 'location=yes'); return true;">Pemahaman Konsep 2</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnpemantapan3" onclick="window.open('pemantapan3.html', '_self', 'location=yes'); return true;">Pemahaman Konsep 3</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan1" onclick="window.open('latihan1.html', '_self', 'location=yes'); return true;">Latihan 1</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan2" onclick="window.open('latihan2.html', '_self', 'location=yes'); return true;">Latihan 2</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan3" onclick="window.open('latihan3.html', '_self', 'location=yes'); return true;">Latihan 3</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlatihan4" onclick="window.open('latihan4.html', '_self', 'location=yes'); return true;">Latihan 4</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnujian1" onclick="window.open('ujian1.html', '_self', 'location=yes'); return true;">Ujian 1</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnujian2" onclick="window.open('ujian2.html', '_self', 'location=yes'); return true;">Ujian 2</button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="upage hidden Video" id="video" delegate-handle="mainScroll">
+      <div class="upage-outer scrollbar">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_69_39">
+      <script>function toggleVideo(state) {
+      // if state == 'hide', hide. Else: show video
+      var div = document.getElementById("page_69_39");
+      var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+      div.style.display = state == 'hide' ? 'none' : '';
+      func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+      iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+      }
+      </script>
+          <div class="grid grid-pad urow uib_row_27 row-height-27" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_28 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col center">
+                <figure class="margin-auto widget uib_w_66" data-uib="media/video" data-ver="0">
+                  <video controls="controls" id="vgsd">
+                    <source src="assets/video/video.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Flat Earth</figcaption>
+                </figure>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+          <div class="grid grid-pad urow uib_row_27 row-height-27" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_28 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col center">
+                <figure class="margin-auto widget uib_w_66" data-uib="media/video" data-ver="0">
+                  <video controls="controls" id="vgm">
+                    <source src="assets/video/video.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Flat Earth</figcaption>
+                </figure>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+          <div class="grid grid-pad urow uib_row_27 row-height-27" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_28 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col center">
+                <figure class="margin-auto widget uib_w_66" data-uib="media/video" data-ver="0">
+                  <video controls="controls" id="vgp">
+                    <source src="assets/video/video.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Flat Earth</figcaption>
+                </figure>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+          <div class="grid grid-pad urow uib_row_28 row-height-28" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_29 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col center">
+                <figure class="margin-auto widget uib_w_66" data-uib="media/video" data-ver="0">
+                  <video controls="controls" id="vlain">
+                    <source src="assets/video/video.mp4" type="video/mp4">
+                  </video>
+                  <figcaption>Flat Earth</figcaption>
+                </figure>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu4"></button>
+        </div>
+        <h1 class="title">Video</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+        </div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb4">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Cuplikan Video</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvGP">Gerak Parabola</button>
+        </div>
+      </div>
+      </div>
+      -->
+    <div class="upage hidden Eksplorasi" id="lainnya" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_70_14">
+          <div class="grid grid-pad urow uib_row_26 row-height-26" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_27 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <button class="button widget uib_w_4 ion bmenu button-light ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="fis" onclick="window.open('http://fisika.zysch.net', '_self', 'location=yes'); return true;">Fisika Itu Sulit</button>
+                <button class="button widget uib_w_4 ion bmenu button-light ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="fis" onclick="window.open('http://wolframalpha.com', '_self', 'location=yes'); return true;">Wolfram|Alpha</button>
+                <button class="button widget uib_w_4 ion bmenu button-light ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="fis" onclick="window.open('https://phet.colorado.edu/en/simulations/category/html', '_self', 'location=yes'); return true;">PhET</button>
+                <button class="button widget uib_w_4 ion bmenu button-light ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="fis" onclick="window.open('http://bse.mahoni.com/data/', '_self', 'location=yes'); return true;">Buku BSE</button>
+                <button class="button widget uib_w_4 ion bmenu button-light ion-ios-list-outline icon-right" data-uib="ionic/button" data-ver="0" id="fis" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfjtuxflgMy7o_LTRg2gEuh4AoI1BB15y6TC4fXXdFOBxTnAA/viewform?c=0&amp;w=1', '_self', 'location=yes'); return true;">Lembar Tanggapan Siswa</button>
+                <button class="button widget uib_w_4 ion bmenu button-light ion-ios-list-outline icon-right" data-uib="ionic/button" data-ver="0" id="fis" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdQ2g8RaUCw2AtCzVViVVPoT_NEhpQ27_YDmmpKy0lJxNkU5w/viewform?c=0&amp;w=1, '_self', 'location=yes'); return true;">Lembar Tanggapan Guru</button>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-positive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_2 ion bmenu button-clear ion-navicon icon-only" data-uib="ionic/button" data-ver="0" id="btnmenu5"></button>
+        </div>
+        <h1 class="title">Lainnya</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb5">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="posisid1" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_58_56">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Posisi</strong></h2>
+                    <h3>Posisi merupakan wujud lokasi suatu benda terhadap titik asal, atau titik nol dari sumbu. Posisi bisa bernilai positif atau negatif, bergantung ke arah mana partikel berada. Arah positif pada sumbu adalah arah ke penambahan angka positif, sedangkan arah negatif adalah arah ke penambahan angka negatif. Untuk mempermudah dalam menentukan arah positif atau negatif, dapat digunakan bantuan garis bilangan sebagai berikut.</h3>
+                    <br>
+                    <div class="widget uib_w_67 scale-image" data-uib="media/img" data-ver="0">
+                      <figure class="figure-align">
+                        <img src="assets/GarisBilanganI.png">
+                        <figcaption data-position="bottom"></figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_45 bar-calm bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_46 ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupsd"></button>
+        </div>
+        <h1 class="title">Posisi</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="vektord1" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_59_44">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Vektor Satuan &amp; Posisi</strong></h2>
+                    <h3>
+                      Vektor satuan adalah vektor yang besarnya satu satuan. Dalam koordinat kartesius ada tiga jenis vektor satuan yang perlu kalian kenal, yaitu $\hat{i}$, $\hat{j}$, $\hat{k}$ yang saling tegak lurus dan masing – masing menyatakan arah sumbu $x$, $y$, dan $z$ positif. Vektor – vektor satuan tersebut dapat dioperasikan dalam operasi penjumlahan, pengurangan, perkalian, dan pembagian. Misalnya, vektor $C$ berada pada bidang $x$ dan $y$  maka vektor $C$ dapat kita tulis menjadi sebagai berikut.
+                      <br>Kita cari terlebih dahulu komponen vektor $C$ \begin{aligned} C_x=C\cos{a}\;\hat{i}\end{aligned} 
+                      \begin{aligned} C_x=C\sin{a}\;\hat{j}\end{aligned}
+                      <br>Maka vektor $C$ dapat kita tulis menjadi \begin{aligned} C_x\;\hat{i}+C_y\;\hat{j} \end{aligned}
+                      <br>Sedangkan untuk mengetahui besar vektor $C$ kita dapat melakukan cara berikut:
+                      <br>\begin{aligned} \sqrt{C_x\widehat{i}^2+C_y\widehat{j}^2} \end{aligned}
+                      <br>Posisi atau kedudukan lebih dikenal dengan sebutan titik acuan. Dalam fisika, titik acuan sangat penting dalam memperhitungkan berbagai hal. Jika dikaitkan dengan materi kita saat ini, dalam mendefinisikan posisi kita dapat menggunakan bantuan vektor. Vektor ini lebih sering dikenal dengan istilah vektor posisi. Vektor posisi secara umum dapat ditulis menjadi:
+                      \begin{aligned} r=x \widehat{i} + y \widehat{j} \end{aligned}
+                      <div class="widget uib_w_67 scale-image" data-uib="media/img" data-ver="0">
+                        <br>
+                        <figure class="figure-align">
+                          <img src="assets/VektorNew.png">
+                          <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                      </div>
+                      <br>Arah vektor $\overrightarrow{r}$ dapat kita tentukan dengan menggunakan trigonometri yaitu,
+                      \begin{aligned} \tan{a}=\frac{y}{x} \end{aligned}
+                      <br>Sebagai contoh, pada gambar vektor $\overrightarrow{r}$ panjang proyeksi vektor di sumbu $x$ dan $y$ masing –masing adalah 7 dan 7 sehingga dengan menggunakan persamaan di atas, kita akan dapat menentukan arah vektor $\overrightarrow{r}$.
+                      <br>\begin{aligned} \tan{a}=\frac{7}{7} \end{aligned}
+                      \begin{aligned} \alpha=45^\circ \end{aligned}
+                      <br>Dari sini kita tahu bahwa arah vektor $\overrightarrow{r}$ adalah $45^\circ$ dihitung dari sumbu $x$ (horizontal).
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_45 bar-calm bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_46 ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupsd"></button>
+        </div>
+        <h1 class="title">Vektor</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="perpindahan" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_60_7">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Perpindahan &amp; Jarak</strong></h2>
+                    <h3>
+                      Perpindahan merupakan lintasan terpendek yang ditempuh suatu benda ditinjau dari posisi awal dan posisi akhir benda. Jarak merupakan panjang seluruh lintasan yang ditempuh oleh suatu benda. Perpindahan menyangkut berapa jauh dan ke mana benda berpindah (vektor) sedangkan jarak hanya menyangkut panjang lintasan (skalar).
+                      <br>Misalnya saat $t_i$= 0 s, benda berada di titik C = 3. Kemudian pada $t_f$= 2 s benda berada pada titik D = -2.
+                      <div class="widget uib_w_67 scale-image" data-uib="media/img" data-ver="0">
+                        <br>
+                        <figure class="figure-align">
+                          <img src="assets/GarisBilangan-CD.png">
+                          <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                      </div>
+                      <br>Maka perpindahan benda adalah \begin{aligned} \Delta x = x_f-x_i\end{aligned}
+                      <br>Sedangkan jaraknya adalah
+                      \begin{aligned}\begin{split}\Delta x &amp; = &amp; \;x_f-x_i\\ \Delta x &amp; = &amp; -2-3\\ \Delta x &amp; = &amp; -5\end{split}\end{aligned}
+                      <br>Misalnya saat $t_i$= 0 s, benda berada di titik C = 1. Kemudian pada $t_f$= 3 s benda berada pada titik D = -4.
+                      <br>
+                      <div class="widget uib_w_67 scale-image" data-uib="media/img" data-ver="0">
+                        <br>
+                        <figure class="figure-align">
+                          <img src="assets/GarisBilangan-CD1.png">
+                          <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                      </div>
+                      <br>Maka perpindahan benda adalah \begin{aligned}\Delta x = x_f-x_i\end{aligned}
+                      <br>Sedangkan jaraknya adalah
+                      \begin{aligned}\begin{split}\Delta x &amp; = &amp; \;x_f-x_i\\ \Delta x &amp; = &amp; -4-1\\ \Delta x &amp; = &amp; -5\end{split}\end{aligned}
+                      <br>Misalnya saat $t_i$= 0 s, benda berada di titik C = -4. Kemudian pada $t_f$= 3 s benda berada pada titik D = 1.
+                      <div class="widget uib_w_67 scale-image" data-uib="media/img" data-ver="0">
+                        <br>
+                        <figure class="figure-align">
+                          <img src="assets/GarisBilangan-CD2.png">
+                          <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                      </div>
+                      <br>Maka perpindahan benda adalah \begin{aligned}\Delta x = x_f-x_i\end{aligned}
+                      <br>Sedangkan jaraknya adalah
+                      \begin{aligned}\begin{split}\Delta x &amp; = &amp; \;x_f-x_i\\ \Delta x &amp; = &amp; 1-(-4)\\ \Delta x &amp; = &amp; 5\end{split}\end{aligned}
+                      <br>Jadi perpindahan dan jarak itu berbeda, sekali lagi yang perlu kita ingat bahwa perpindahan adalah lintasan terpendek yang ditempuh oleh benda sedangkan jarak adalah total panjang lintasan yang ditempuh oleh benda.
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_45 bar-calm bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_46 ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupsd"></button>
+        </div>
+        <h1 class="title">Perpindahan</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="kecepatan" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_61_40">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Kecepatan Benda</strong></h2>
+                    <h3>
+                      Seperti yang sudah dijelaskan sebelumnya di awal, bahwa kecepatan merupakan hasil bagi dari perubahan posisi ( perpindahan ) dibagi selang waktu tempuhnya. Berarti kecepatan merupakan besaran vektor karena kecepatan memiliki besar dan arah. Dalam kinematika gerak khususnya pada gerak satu dimensi kita perlu memahami hal – hal berikut ini.
+                      <ol>
+                        <li><b>1. Kecepatan Rata - Rata</b></li>
+                        <li><b>2. Kecepatan Sesaat</b></li>
+                        <li><b>3. Fungsi Kecepatan</b></li>
+                        <li><b>4. Grafik Kecepatan</b></li>
+                      </ol>
+                      <br>Untuk masuk ke sub materi tersebut kalian bisa langsung menekan submateri di atas.
+                      <br>Selamat Belajar
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_45 bar-calm bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_46 ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupsd"></button>
+        </div>
+        <h1 class="title">Kecepatan</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_62 ion button-clear ion button-stable button-clear ion-android-more-vertical icon-only" data-uib="ionic/button" data-ver="0" id="btnlainv"></button>
+        </div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+      <div class="inner-element uib_w_64 uib_sidebar rightbar bar-bg thumb-bg bar-gutter swipe fixed" overflow-x="false" data-uib="layout/right_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':280, 'side':'right', 'dur':200}" id="rsb">
+        <div class="sidebar-content content-area vertical-col">
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnvrata">Kecepatan Rata - Rata</button>
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnvsesaat">Kecepatan Sesaat</button>
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnvpersamaan">Persamaan Kecepatan</button>
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnvgrafik">Grafik Kecepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="kecepatanrata" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_21_62">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Kecepatan Rata - Rata</strong></h2>
+                    <h3>
+                      Pada gerak lurus satu dimensi, kecepatan rata – rata didefinisikan sebagai hasil bagi perpindahan dengan selang waktu yang ditempuh, dengan persamaan sebagai berikut.
+                      \begin{aligned}\begin{split}\bar{v} &amp; =&amp; \frac{\Delta x}{\Delta y} \\ &amp; = &amp; \frac{x_f-x_i}{t_f-t_i}
+                      \end{split}\end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbacksd"></button>
+        </div>
+        <h1 class="title">Kecepatan Rata - Rata</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="kecepatansesaat" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_22_90">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Kecepatan Sesaat</strong></h2>
+                    <h3>
+                      Untuk memahami makna kecepatan sessat, kalian bisa menggunakan contoh kecil dalam kehidupan kita sehari – hari. 
+                      <br>
+                      <br>
+                      Misalkan begini, kalian mengendarai sepeda motor di jalan lurus dengan kecepatan 100 km/jam dalam waktu dua jam, berarti rata – rata kecepatan kalian adalah 50 km/jam tetapi apakah kalian yakin bahwa kalian mengendarai sepeda motor selalu dengan kecepatan tepat 50 km/jam?
+                      <br>
+                      <br>Tentunya tidak, nah untuk mengetahui kecepatan di tiap saat kita perlu memahami lebih jauh tentang kecepatan sesaat. 
+                      <br>
+                      <br>Banyak buku pelajaran mendefinisikan kecepatan sesaat seperti ini, “kecepatan sesaat adalah kecepatan rata – rata pada limit selang waktu t mendekati nol”. Apakah kalian bisa mencerna makna kalimat ini? 
+                      <br>
+                      <br>Jika sulit, kita ubah definisinya menjadi seperti ini:
+                      “Kecepatan sesaat adalah kecepatan benda pada waktu tertentu”
+                      <br>
+                      <br>
+                      Pernyataan di atas hanya untuk mempermudah kalian untuk memahami makna kecepatan sesaat berdasarkan realita di kehidupan kita sehari – hari. 
+                      <br>
+                      <br>
+                      Namun, untuk perhitungannya kita tetap perlu memahami definisi awal dari kecepatan sesaat yang diadopsi dari persamaan matematis. Persamaannya adalah sebagai berikut.
+                      \begin{aligned} v_t = \lim_{\Delta t\rightarrow0} \overrightarrow v \end{aligned}
+                      <br>
+                      <br>
+                      Coba lihat gambar di atas, selang waktu $\Delta t$ terus diperkecil dengan mengambil $t_1$ tetap dan $t_2$ mendekati $t_1$. 
+                      <br>Ketika selang waktu yang terbentuk mendekati nol, $\Delta t$ mendekati nol dan kecepatan rata – rata $\bar v$ menjadi kecepatan sesaat $v_t$, yang sejajar dengan garis singgung kurva posisi pada $t=t_1$.
+                      <br>
+                      <br>
+                      Jika kita diberikan grafik seperti pada gambar di atas, maka untuk menentukan kecepatan sesaat benda kita tinggal mencari gradien atau kemiringan garis dari kurva posisi terhadap waktu.
+                      <br>
+                      <br>
+                      Sebenarnya ada cara lain untuk mencari kecepatan sesaat hanya saja kalian baru akan mempelajari teorinya di pelajaran Matematika di semester 2 nanti. Loh bagaimana dong?
+                      <br>
+                      <br>
+                      Tidak perlu takut, teori yang akan kita pelajari ini sebenarnya cukup gampang. Nama teorinya dalah teori diferensial atau lebih dikenal dengan istilah turunan.
+                      <br>
+                      <br>
+                      Jika kalian ingin mempelajari turunan lebih jauh, kalian bisa mencoba latihan turunan di bagian TES ya. Sekarang kita lanjutkan terlebih dahulu materinya.
+                      <br>
+                      Kecepatan sesaat bisa juga kita definisikan sebagai hasil turunan fungsi x terhadap t yang secara matematis dapat dituliskan menjadi.
+                      \begin{aligned} v_x = \frac {dx}{dt} \end{aligned}
+                      <br>
+                      <br>
+                      Misalkan kita diberikan persamaan gerak lurus suatu benda sepeti berikut ini, $x=2t^2-t-3$, maka kita dapat menentukan fungsi kecepatan sesaatnya adalah \begin{aligned}\begin{split} v_x&amp; = &amp; \; \frac {dx}{dt}\\ &amp; = &amp;\;\frac {d(2t^2-t-3)}{dt}\\ v &amp; = &amp;\;4t-1\end{split}\end{aligned}
+                      <br>
+                      Ketika $t=0$, maka didapatkan kecepatan awal benda yaitu
+                      \begin{aligned}\begin{split}v_0&amp;=&amp; \;4(0)-1\\&amp;=&amp;-1\;m/s\end{split}\end{aligned}
+                      <br>
+                      Apabila sesorang bertanya, berapakah kecepatan benda di detik ke 8s maka
+                      \begin{aligned}\begin{split}v_0&amp;=&amp; \;4(8)-1\\&amp;=&amp;\;31\;m/s\end{split}\end{aligned}
+                      <br>dan seterusnya.
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbacksd"></button>
+        </div>
+        <h1 class="title">Kecepatan Sesaat</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="fungsikecepatan" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div id="fungsiv" class="upage-content vertical-col left">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>$v(t)$ - Kecepatan terhadap Waktu</strong></h2>
+                    <h3>
+                      Jika kita diberikan fungsi kecepatan, sebenarnya kita bisa mendapatkan bentuk lain dari fungsi tersebut. Jika kita operasikan dengan diferensial maka kita akan mendapatkan isitilah lain di dalam kinematika yaitu percepatan. 
+                      <br>
+                      <br>
+                      Di awal kita sudah memahami bahwa percepatan adalah hasil bagi dari perubahan kecepatan dengan selang waktu tempuh benda. Nah poin penting di sub materi ini adalah mencari persamaan posisi suatu benda. 
+                      <br><br>
+                      Lagi – lagi kita sangat membutuhkan bantuan matematika selain diferensial. Materi matematika ini akan kalian dapatkan di kelas XII. 
+                      <br>
+                      <br>
+                      Materi ini dikenal dengan istilah integral. Pernah mendengarnya?
+                      <br>
+                      <br>
+                      Namun, kalian tidak perlu khawatir, kalian bisa lebih memahami materi ini dengan mencoba mengerjakan contoh – contoh soal di bagian Tes. 
+                      <br>
+                      <br>
+                      Kita lanjutkan ya.
+                      <br>
+                      <br>
+                      Apabila diberikan fungsi kecepatan dari suatu benda, dalam menentukan posisinya diperlukan proses pengintegralan dari fungsi kecepatan tersebut. Dengan mengintegralkan persamaan kecepatan maka kita akan mendapatkan persamaan fungsi posisi pada sumbu $x$ sebagai berikut.
+                      \begin{aligned}
+                      \begin{split}
+                      v_{t}&amp;=&amp;\frac{d\theta}{dt}\\
+                      d\theta &amp;=&amp; v.dt\\
+                      \int_{\theta_i}^{\theta_f} &amp;=&amp; \int_{t_i}^{t_f}v.dt\\
+                      \theta_f-\theta_i &amp;=&amp; \int_{t_i}^{t_f}v.dt\\
+                      \theta_f &amp;=&amp; \int_{t_i}^{t_f}v.dt+ \theta_i
+                      \end{split}
+                      \end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbacksd"></button>
+        </div>
+        <h1 class="title">Persamaan Kecepatan</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="grafikkecepatan" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div id="grafikv" class="upage-content vertical-col left">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Grafik Kecepatan</strong></h2>
+                    <h3>
+                      Pada pembahasan sebelumnya, dalam menentukan besar perpindahan kita perlu menggunakan integral. 
+                      <br><br>
+                      Sebenarnya, makna dari integral dalam arti geometris adalah luas di bawah kurva atau grafik suatu fungsi. 
+                      <br>
+                      <br>Jika dimungkinkan suatu fungsi digambarkan dalam bidang kartesius maka dengan menghitung luasan di bawah kurva tersebut nantinya akan didapatkan perpindahan suatu benda.
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbacksd"></button>
+        </div>
+        <h1 class="title">Grafik Kecepatan</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="percepatan" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div id="percepatan" class="upage-content vertical-col left">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Percepatan</strong></h2>
+                    <h3>
+                      Jika kecepatan sesaat benda berubah selama selang waktu tertentu $\Delta = t_2 - t_1$, maka bisa kita katakan bahwa benda mengalami percepatan. 
+                      <br>Sungguh sejalan dengan apa yang sudah kita singgung di awal, bahwa percepatan adalah perubahan kecepatan suatu benda selama selang waktu tertentu.
+                      Ada beberapa poin yang perlu kita pelajari mengenai percepatan, yaitu:
+                      <br>
+                      1. Percepatan Rata - Rata
+                      <br>
+                      2. Percepatan Sesaat
+                      <br>
+                      3. Persamaan Percepatan terhadap Waktu
+                      <br>
+                      Untuk itu, ayo kita pahami satu per satu sub materi di atas. 
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_45 bar-calm bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_46 ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupsd"></button>
+        </div>
+        <h1 class="title">Percepatan</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_62 ion button-clear ion button-stable button-clear ion-android-more-vertical icon-only" data-uib="ionic/button" data-ver="0" id="btnlaina"></button>
+        </div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+      <div class="inner-element uib_w_64 uib_sidebar rightbar bar-bg thumb-bg bar-gutter swipe fixed" data-uib="layout/right_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':280, 'side':'right', 'dur':200}" id="rsba">
+        <div class="sidebar-content content-area vertical-col">
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnarata">Percepatan Rata - Rata</button>
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnasesaat">Percepatan Sesaat</button>
+          <button class="button widget uib_w_46 ion button-dark" data-uib="ionic/button" data-ver="0" id="btnapersamaan">Persamaan Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="percepatanrata" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_30_66">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Percepatan Rata - Rata</strong></h2>
+                    <h3>
+                      Pada gerak lurus satu dimensi, percepatan rata – rata didefinisikan sebagai hasil bagi kecepatan dengan selang waktu yang ditempuh, dengan persamaan sebagai berikut.
+                      \begin{aligned}
+                      \begin{split}
+                      \bar{a}&amp;=&amp;\frac{\Delta{v}}{\Delta{t}}\\
+                      &amp;=&amp;\frac{v_2-v_1}{t_2-t_1}
+                      \end{split}
+                      \end{aligned}  
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbackasd"></button>
+        </div>
+        <h1 class="title">Percepatan Rata - Rata</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="percepatansesaat" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_31_56">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Percepatan Sesaat</strong></h2>
+                    <h3>
+                      Percepatan sesaat didefinisikan sebagai percepatan rata – rata untuk selang waktu $\Delta t$ mendekati nol yang secara matematis dapat didefinisikan menjadi seperti ini:
+                      \begin{aligned}
+                      \begin{split}
+                      a_t &amp;=&amp; \lim_{\Delta t\rightarrow0} \overrightarrow a\\
+                      &amp;=&amp; \lim_{\Delta t\rightarrow0} \frac{\Delta{v}}{\Delta{t}}
+                      \end{split}
+                      \end{aligned}    
+                      <br>
+                      Persamaan pada percepatan sesaat sebenarnya serupa dengan persamaan pada kecepatan sesaat sehingga percepatan sesaat bisa didefinisikan sebagai turunan pertama dari fungsi 
+                      kecepatan $v$ terhadap $t$. Secara matematis dapat ditulis menjadi:
+                      \begin{aligned}
+                      a_t = \frac{dv}{dt}
+                      \end{aligned} 
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbackasd"></button>
+        </div>
+        <h1 class="title">Percepatan Sesaat</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden materigsd" id="kecepatanfungsi" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_32_86">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Persamaan Percepatan terhadap Waktu - $a(t)$
+                      </strong>
+                    </h2>
+                    <h3>
+                      Apabila kita mendapatkan persamaan percepatan terhadap waktu, kecepatan $v$ dapat ditentukan dengan mengintegralkannya, maka persamaan kecepatan terhadap waktunya adalah sebagai berikut.
+                      \begin{aligned}
+                      \begin{split}
+                      a{t}&amp;=&amp;\frac{dv}{dt}\\
+                      dv &amp;=&amp; a.dt\\
+                      \int_{v_i}^{v_f} &amp;=&amp; \int_{t_i}^{t_f}a.dt\\
+                      v_f-v_i &amp;=&amp; \int_{t_i}^{t_f}a.dt\\
+                      v_f &amp;=&amp; \int_{t_i}^{t_f}a.dt+ v_i
+                      \end{split}
+                      \end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_47 bar-balanced bar-header" data-uib="ionic/header" data-ver="0">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_50 d-margins ion button-clear ion-arrow-left-b icon-only" data-uib="ionic/button" data-ver="0" id="btnbackasd"></button>
+        </div>
+        <h1 class="title">Persamaan Percepatan</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb6">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-navigate-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisid1">Posisi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-arrow-resize icon-right" data-uib="ionic/button" data-ver="0" id="btnvektor">Vektor</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-location-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnperpindahan">Perpindahan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-speedometer-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnv">Kecepatan</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-stopwatch-outline icon-right" data-uib="ionic/button" data-ver="0" id="btna">Percepatan</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden melingkar GM" id="kecepatansudut" delegate-handle="mainScroll">
+      <div class="upage-outer fixed-header-footer">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_54_85">
+          <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_23 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_23">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Kecepatan Sudut Rata – Rata dan Sesaat</strong></h2>
+                    <h3><br>
+                      Sebelumnya sudah dijelaskan, bahwa besaran dalam gerak melingkar dapat dianalogikan dengan besaran pada gerak lurus
+                      sehingga kecepatan sudut rata – rata didefinisikan sebagai hasil bagi antara perpindahan sudut ($\Delta \theta$) dengan selang waktu ($\Delta t$). 
+                      <br>Secara matematis dapat dituliskan sebagai berikut.<br>
+                      \begin{aligned}\begin{split}\bar{\omega} &amp;=&amp; \frac{\Delta \theta}{\Delta t}\\
+                      &amp;=&amp; \frac{\theta_f - \theta_i}{t_f - t_i} \end{split}\end{aligned}
+                      <br>
+                      Sedangkan untuk kecepatan sudut sesaat dapat ditentukan dengan menurunkan fungsi posisi sudut 
+                      $\theta$ terhadap waktu $t$ yang secara matematis dapat kita tuliskan menjadi:
+                      \begin{aligned}\omega=\frac{d\theta}{dt}\end{aligned}
+                    </h3>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    <h2><strong>Menentukan Besar Kecepatan Sudut Sesaat dari Kemiringan Grafik θ − t</strong></h2>
+                    <p>&nbsp;</p>
+                    <h3>Apabila diberikan grafik fungsi posisi sudut terhadap waktu, maka kecepatan sesaat dapat ditentukan dengan melihat<br>
+                      kemiringan grafik yang secara matematis dapat dituliskan sebagai berikut.<br>
+                      \begin{aligned} \omega = \tan{\beta} \end{aligned}
+                      $\beta$ merupakan sudut antara fungasi grafik $\theta = t$ terhadap sumbu $t$ yang dihitung mulai dari sumbu $t$ dengan arah berlawanan putaran jarum jam.
+                    </h3>
+                    <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    <h2><strong>Menentukan Posisi Sudut dari Fungsi Kecepatan Sudut</strong></h2>
+                    <h3>Untuk menentukan posisi sudut pada gerak melingkar, persamaan dapat diintegrasi pada kedua ruasnya menjadi.
+                      \begin{aligned}
+                      \begin{split}
+                      \omega &amp;=&amp;\frac{d\theta}{dt}\\
+                      d\theta &amp;=&amp; \omega.dt\\
+                      \int_{\theta_i}^{\theta_f} d\theta &amp;=&amp; \int_{t_i}^{t_f}\omega.dt\\
+                      \theta_f-\theta_i &amp;=&amp; \int_{t_i}^{t_f}\omega.dt\\
+                      \theta_f &amp;=&amp; \int_{t_i}^{t_f}\omega.dt+ \theta_i
+                      \end{split}
+                      \end{aligned}
+                    </h3>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_22 ion el fa buttonmenu button-large button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btnclosem"></button>
+        </div>
+        <h1 class="title">Kecepatan Sudut</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb7">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvsudut">Kecepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnasudut">Percepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnatotal">Percepatan Total</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnanalogi">Analogi Gerak Melingkar</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden melingkar GM" id="percepatansudut" delegate-handle="mainScroll">
+      <div class="upage-outer fixed-header-footer">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_56_70">
+          <div class="grid grid-pad urow uib_row_4 row-height-4" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_4 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_24 d-margins" data-uib="media/text" data-ver="0" name="uib_w_24">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Menentukan Besar Percepatan Sudut dari Grafik $\omega − t$</strong></h2>
+                    <h3>Sama seperti persamaan – persamaan sebelumnya, dalam
+                      menentukan besar percepatan sudut dari fungsi grafik kecepatan
+                      sudut terhadap t, cukup mengidentifikasi besar kemiringan kurva
+                      yang secara matematis dapat kita tulis menjadi:
+                      <br>
+                      \begin{aligned}\alpha=\tan{\beta}\end{aligned}
+                      $\beta$ merupakan sudut antara fungsi grafik $\omega − t$ terhadap sumbu $t$<br>
+                      yang dihitung mulai dari sumbu $t$ dengan arah berlawanan putaran<br>
+                      jarum jam.
+                    </h3>
+                                            <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    <h2><strong>Percepatan Sudut sebagai Turunan Fungsi Kecepatan Sudut</strong></h2>
+                    <h3>Pada gerak melingkar, besar percepatan sudut $\alpha$ adalah turunan pertama dari fungsi kecepatan sudut terhadap waktu atau bisa juga dikatakan sebagai turunan kedua dari fungsi posisi sudut yang secara matematis dapat ditulis sebagai berikut.<br>
+                      \begin{aligned}\alpha = \frac{d\omega}{dt} \end{aligned}
+                      <br>
+                      Jika dilihat sekilas, persamaan percepatan sudut sesaat merupakan hasil turunan dari persamaan kecepatan sudut sehingga bisa kita katakan bahwa persamaan percepatan sudut merupakan turunan kedua dari persamaan posisi sudut yakni:
+                      \begin{aligned}
+                      \alpha=\frac{d^2\theta}{dt^2}
+                      \end{aligned}
+                    </h3>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                                            <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    <h2><strong>Menentukan Kecepatan Sudut dari Fungsi Percepatan Sudut</strong></h2>
+                    <p>&nbsp;</p>
+                    <h3>Apabila diberikan fungsi grafik $(\alpha − t)$ untuk menentukan besar kecepatan sudutnya, fungsi grafik tersebut diintegrasi di kedua ruas menjadi:
+                      \begin{aligned}\begin{split}
+                      \alpha &amp;=&amp; \frac{d\omega}{dt}\\
+                      d\omega &amp;=&amp; \alpha.dt\\
+                      \int_{\omega_i}^{\omega_f} d\omega &amp;=&amp; \int_{t_i}^{t_f}\alpha.dt\\
+                      \omega_f-\omega_i &amp;=&amp; \int_{t_i}^{t_f}\alpha.dt\\
+                      \omega_f &amp;=&amp; \int_{t_i}^{t_f}\alpha.dt+ \omega_i\\
+                      \end{split}
+                      \end{aligned}
+                    </h3>
+                                            <br>
+                      <br>
+
+     
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_22 ion el fa buttonmenu button-large button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btnclosem"></button>
+        </div>
+        <h1 class="title">Percepatan Sudut</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb7">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvsudut">Kecepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnasudut">Percepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnatotal">Percepatan Total</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnanalogi">Analogi Gerak Melingkar</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden melingkar GM" id="percepatantotal" delegate-handle="mainScroll">
+      <div class="upage-outer fixed-header-footer">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_58_64">
+          <div class="grid grid-pad urow uib_row_6 row-height-6" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_6 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_25 d-margins" data-uib="media/text" data-ver="0" name="uib_w_25">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Percepatan Total</strong></h2>
+                    <h3>Percepatan total pada GMBB dapat didefinisikan sebagai penjumlahan dari percepatan sentripetal dan percepatan tangensial benda dan secara matematis dapat dituliskan menjadi. \begin{aligned} a = \sqrt{a_s^2+a_t^2} \end{aligned}<br>
+                      sedangkan untuk arah percepatan total terhadap arah radial dapat dihitung dengan perbandingan tangensial. \begin{aligned} \tan{\beta} = \frac{a_t}{a_s} \end{aligned} dengan $a_s = \frac{v^2}{r}$ dan $a_t=\alpha.r$<br>
+                      Apabila terdapat benda meluncur pada jalan melingkar vertikal yang licin berjari – jari $r$ = 2 m dengan percepatan dan kelajuan sudut berturut – turut 4 rad/s dan 5 rad/s$^2$ maka percepatan totalnya dapat ditentukan<br>
+                      sebagai berikut.<br>
+                      Percepatan Sentripetal : \begin{aligned} \begin{split} a_s &amp;=&amp; \frac{v^2}{r}\\ &amp;=&amp; \frac{4^2}{2}\\ &amp;=&amp; 8\;m/s^2\\ \end{split} \end{aligned}<br>
+                      Percepatan Tangensial : \begin{aligned} \begin{split} a_t &amp;=&amp; \alpha.r\\ &amp;=&amp; 5.2\\ &amp;=&amp; 10\;m/s^2\\ \end{split} \end{aligned}<br>
+                      sehingga percepatan totalnya adalah \begin{aligned}\begin{split}a &amp;=&amp;\sqrt{8^2+10^2}\\&amp;=&amp; 2\sqrt{41} m/s^2\end{split}\end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_1 bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_22 ion el fa buttonmenu button-large button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btnclosem"></button>
+        </div>
+        <h1 class="title">Percepatan Total</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb7">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvsudut">Kecepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnasudut">Percepatan Sudut</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnatotal">Percepatan Total</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnanalogi">Analogi Gerak Melingkar</button>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden melingkar GM" id="kinematikagerak" delegate-handle="mainScroll">
+      <div class="upage-outer fixed-header-footer">
+        <div class="upage-content ac0 content-area vertical-col left" id="page_59_95">
+          <div class="grid grid-pad urow uib_row_8 row-height-8" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_8 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_26 d-margins" data-uib="media/text" data-ver="0" name="uib_w_26">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Kinematika Gerak Melingkar Berubah Beraturan</strong></h2>
+                    <h3>Untuk lebih mudah memahami kinematika gerak pada gerak melingkar berubah beraturan dapat digunakan metode analogi pada gerak lurus berubah beraturan yang sebelumnya telah dipelajari di kelas X.<br>
+                      Adapun persamaan kinematika gerak melingkar berubah beraturan antara lain sebagai berikut.<br>
+                      <br>
+                      Persamaan Posisi \begin{aligned} x=x_0+v_0.t+\frac{1}{2}a.t^2 \end{aligned} \begin{aligned} \leftrightarrow \end{aligned} \begin{aligned} \theta=\theta_0+\omega_0.t+\frac{1}{2}\alpha.t^2 \end{aligned}<br>
+                      Persamaan Kecepatan \begin{aligned} v=v_0+a.t \end{aligned} \begin{aligned} \leftrightarrow \end{aligned} \begin{aligned} \omega=\omega_0 + \alpha.t \end{aligned} \begin{aligned} v^2=v_0^2+2.a.\Delta{x} \end{aligned} \begin{aligned} \leftrightarrow \end{aligned} \begin{aligned} \omega^2=\omega_0^2 + 2.\alpha.\Delta{\theta} \end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+        <ion-header-bar class="bar inner-element uib_w_1 bar-energized bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+          <div class="buttons widget-container content-area horiz-area wrapping-col">
+            <button class="button widget uib_w_22 ion el fa buttonmenu button-large button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btnclosem"></button>
+          </div>
+          <h1 class="title">Analogi Gerak Melingkar</h1>
+          <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+        </ion-header-bar>
+        <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb7">
+          <div class="sidebar-thumb"></div>
+          <div class="scroll sidebar-content content-area vertical-col">
+            <div class="text-container">
+              <p>Utama</p>
+            </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+            <div class="text-container">
+              <p>Materi</p>
+            </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+            <div class="text-container">
+              <p>Sub Materi</p>
+            </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvsudut">Kecepatan Sudut</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnasudut">Percepatan Sudut</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnatotal">Percepatan Total</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnanalogi">Analogi Gerak Melingkar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden GP" id="kecepatangp" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_85_14">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Persamaan Posisi dan Kecepatan</strong></h2>
+                    <h3>
+                      Gerak parabola merupakan gerak dua dimensi sehingga terdapat dua komponen kecepatan di dalamnya. 
+                      Terdapat komponen kecepatan searah sumbu $x$ yang jenis geraknya gerak lurus beraturan dan pada searah sumbu $y$ jenis geraknya adalah gerak lurus berubah beraturan.
+                      <br>
+                      Pada sumbu $x$ persamaan yang berlaku adalah persamaan GLB yaitu sebagai berikut.
+                      \begin{aligned}x=x_0+v_ox.t\end{aligned}
+                      Sedangkan pada sumbu $y$ persamaan yang berlaku adalah persamaan GLBB yaitu sebagai berikut.
+                      \begin{aligned}\begin{split}y &amp;=&amp; y_0+v_{0y}.t-\frac{1}{2}.g.t^2\\v_y &amp;=&amp; v_{0y}-g.t\end{split}\end{aligned}
+                      <br>
+                      Besar kecepatan awal  merupakan kecepatan awal $v_0$ benda. Karena gerak benda berada di dua dimensi maka komponen kecepatan tersebut perlu diuraikan untuk masing – masing sumbu sehingga dapat didefinisikan.
+                      \begin{aligned}\begin{split} v_{0x} &amp;=&amp; v_0.\cos{\alpha_0}\\ 
+                      v_{0y} &amp;=&amp; v_0.\sin{\alpha_0}
+                      \end{split}
+                      \end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+        <ion-header-bar class="bar inner-element uib_w_53 bar-assertive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+          <div class="buttons widget-container content-area horiz-area wrapping-col">
+            <button class="button widget uib_w_54 d-margins ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupgp"></button>
+          </div>
+          <h1 class="title">Persamaan Posisi dan Kecepatan</h1>
+          <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+        </ion-header-bar>
+        <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb8">
+          <div class="sidebar-thumb"></div>
+          <div class="scroll sidebar-content content-area vertical-col">
+            <div class="text-container">
+              <p>Utama</p>
+            </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+            <div class="text-container">
+              <p>Materi</p>
+            </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+            <div class="text-container">
+              <p>Sub Materi</p>
+            </div>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisigp">Jarak dan Tinggi Maksimum</button>
+            <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnjarakgp">Persamaan Posisi dan Kecepatan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upage hidden GP" id="posisigp" delegate-handle="mainScroll">
+      <div class="upage-outer">
+        <div class="upage-content vertical-col left" id="page_88_89">
+          <div class="grid grid-pad urow uib_row_23 row-height-23" data-uib="layout/row" data-ver="0">
+            <div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+              <div class="widget-container content-area vertical-col">
+                <div class="tarea widget uib_w_43 Konten Posisi" data-uib="media/text" data-ver="0" name="uib_w_43">
+                  <div class="widget-container left-receptacle"></div>
+                  <div class="widget-container right-receptacle"></div>
+                  <div class="text-container">
+                    <h2><strong>Jarak dan Tinggi Maksimum</strong></h2>
+                    <h3>
+                      Suatu benda akan mencapai tinggi maksimum ketika komponen kecepatan benda di sumbu $y$ adalah nol ($v_y=0$).  
+                      Secara matematis kita dapat mencari waktu benda mencapai titik tertingi atau juga tinggi maksimumnya. Persamaannya adalah sebagai berikut.
+                      <br>
+                      Karena $v_y0 = 0$ maka
+                      \begin{aligned}
+                      \begin{split}
+                      v_y &amp;=&amp; v_{0y}-g.t\\
+                      0 &amp;=&amp; v_{0y} - g.t\\
+                      v_{0y} &amp;=&amp; g.t\\
+                      t_{tertinggi} &amp;=&amp; \frac{v_{0y}}{g}\\
+                      t_{tertinggi} &amp;=&amp; \frac{v_{0y}\sin{\alpha_o}}{g}\\
+                      \end{split}
+                      \end{aligned}
+                      <br>
+                      Setelah mendapatkan waktu untuk mencapai titik tertinggi, persamaan di atas bisa kita gunakan untuk mencari posisi tertinggi dari benda sehingga kita bisa dapatkan
+                      persamaan posisinya adalah sebagai berikut.
+                      \begin{aligned}
+                      \begin{split}
+                      y &amp;=&amp; y_0 + v_{0y}.\frac{v_{0y}}{g} - \frac{1}{2}.g.(\frac{v_{0y}}{g})^2\\
+                      y &amp;=&amp; y_0 + \frac{v_{0y}^2}{g} - \frac{1}{2}.g.(\frac{v_{0y}^2}{g})^2 \\
+                      y &amp;=&amp; y_0 + \frac{1}{2}.g.(\frac{v_{0y}^2}{g})^2
+                      \end{split}
+                      \end{aligned}
+                      <br>
+                      Jika $y_0 = 0$ maka
+                      <br>
+                      \begin{aligned}
+                      \begin{split}
+                      y &amp;=&amp; \frac{v_{0y}^2}{2.g}
+                      y_{tertinggi} &amp;=&amp; \frac{v_0^2 \sin{2}^2}{2.g}
+                      \end{split}
+                      \end{aligned}
+                      Untuk mencari jarak terjauh yang bisa dicapai benda, maka perlu diketahui komponen kecepatan di sumbu. 
+                      <br>
+                      Berdasarkan penjelasan sebelumnya, jenis gerak yang terjadi di sumbu adalah gerak lurus beraturan, 
+                      maka jarak terjauh bisa langsung didapatkan dengan mencari maksimum gerakan benda dan kemudian disubstitusikan ke dalam persamaan sebelumnya. 
+                      Adapun penurunannya sebagai berikut.
+                      <br>
+                      Jarak maksimum dicapai ketika $y=0$ sehingga kita bisa mendapatkan waktu tempuh total benda.
+                      \begin{aligned}
+                      \begin{split}
+                      y &amp;=&amp; y_0 + v_{0y} . t - \frac{1}{2}.g.t^2 \\
+                      0 &amp;=&amp; 0 + v_{0y} . t - \frac{1}{2}.g.t^2 \\
+                      \frac{1}{2}.g.t^2 &amp;=&amp; v_{0y} . t \\
+                      t &amp;=&amp; \frac{2.v_0.\sin{\alpha_0}}{g} \\
+                      \end{split}
+                      \end{aligned}
+                      <br>Setelah kita mendapatkan waktu tempuh total benda, maka kita substitusikan ke persamaan gerak benda pada sumbu $x$ sehingga kita akan mendapatkan persamaan berikut.
+                      \begin{aligned}
+                      \begin{split}
+                      x &amp;=&amp; x_0 + v_{0x}.t \\
+                      x &amp;=&amp; x_0 + v_0.\cos{\alpha_0}.t \\
+                      x &amp;=&amp; x_0 + \frac{v_0.\cos{\alpha_0}.2.v_0.\sin{\alpha_0}}{g} \\
+                      x &amp;=&amp; x_0 + \frac{2v_0^2.\sin{\alpha_0}.\cos{\alpha_0}}{g} \\
+                      x &amp;=&amp; x_0 + \frac{v_0^2.\sin{2\alpha_0}}{g} \\
+                      \end{split}
+                      \end{aligned}
+                    </h3>
+                  </div>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+      </div>
+      <ion-header-bar class="bar inner-element uib_w_53 bar-assertive bar-header" data-uib="ionic/header" data-ver="0" align-title="center">
+        <div class="buttons widget-container content-area horiz-area wrapping-col">
+          <button class="button widget uib_w_54 d-margins ion button-light button-clear ion-android-close icon-only" data-uib="ionic/button" data-ver="0" id="btntutupgp"></button>
+        </div>
+        <h1 class="title">Jarak dan Tinggi Maksimum</h1>
+        <div class="buttons widget-container content-area horiz-area wrapping-col"></div>
+      </ion-header-bar>
+      <div class="inner-element uib_w_3 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe fixed lsbshadow" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':300, 'side':'left', 'oh':-20, 'dur':200}" id="lsb8">
+        <div class="sidebar-thumb"></div>
+        <div class="scroll sidebar-content content-area vertical-col">
+          <div class="text-container">
+            <p>Utama</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnberanda">Beranda</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnmateri">Materi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btntes">Tes</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-camera-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnvideo" onclick="window.open('video.html', '_self', 'location=yes'); return true;">Video</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-eye-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnlainnya">Lainnya</button>
+          <div class="text-container">
+            <p>Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGSD">Gerak Satu Dimensi</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGM">Gerak Melingkar</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-browsers-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnGP">Gerak Parabola</button>
+          <div class="text-container">
+            <p>Sub Materi</p>
+          </div>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-home-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnposisigp">Jarak dan Tinggi Maksimum</button>
+          <button class="button widget uib_w_4 ion bmenu button-outline ion-ios-paper-outline icon-right" data-uib="ionic/button" data-ver="0" id="btnjarakgp">Persamaan Posisi dan Kecepatan</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
